@@ -69,7 +69,7 @@ TRANSFORMERSCPP/
 ├── bumblebee
 ├── LEIAME.txt
 └── README.md
-```text
+```
 
 
 O programa lê `dados/dataset.txt`, processa os dados e imprime os resultados do modelo no console. Se der erro, não se desespere: é só dar um reboot… igual no filme!
