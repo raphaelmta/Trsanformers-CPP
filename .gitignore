@@ -1,0 +1,9 @@
+
+dados/
+LEIAME.txt
+
+
+*.o
+*.out
+*.exe
+bumblebee
