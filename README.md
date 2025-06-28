@@ -34,37 +34,37 @@ Cada componente da arquitetura virou uma **classe C++ separada** — mais modula
 
 ## Estrutura do Projeto
 
+```text
 TRANSFORMERSCPP/
 ├── dados/
-│ ├── dataset.txt
-│ └── pg16412.txt
+│   ├── dataset.txt
 ├── include/
-│ ├── 01RMTAEmbedding.hpp
-│ ├── 02RMTATokenizer.hpp
-│ ├── 03RMTAPositionalEncoding.hpp
-│ ├── 04RMTALayerNorm.hpp
-│ ├── 05RMTASelfAttention.hpp
-│ ├── 06RMTAFeedForwardNetwork.hpp
-│ ├── 07RMTAEncoderLayer.hpp
-│ ├── 08RMTAEncoder.hpp
-│ ├── 09RMTADecoderLayer.hpp
-│ ├── 10RMTADecoder.hpp
-│ ├── FinalLayer.hpp
-│ ├── HelpFunc.hpp
-│ └── VectorOp.hpp
+│   ├── 01RMTAEmbedding.hpp
+│   ├── 02RMTATokenizer.hpp
+│   ├── 03RMTAPositionalEncoding.hpp
+│   ├── 04RMTALayerNorm.hpp
+│   ├── 05RMTASelfAttention.hpp
+│   ├── 06RMTAFeedForwardNetwork.hpp
+│   ├── 07RMTAEncoderLayer.hpp
+│   ├── 08RMTAEncoder.hpp
+│   ├── 09RMTADecoderLayer.hpp
+│   ├── 10RMTADecoder.hpp
+│   ├── FinalLayer.hpp
+│   ├── HelpFunc.hpp
+│   └── VectorOp.hpp
 ├── src/
-│ ├── 01RMTAEmbedding.cpp
-│ ├── 02RMTATokenizer.cpp
-│ ├── 03RMTAPositionalEncoding.cpp
-│ ├── 04RMTALayerNorm.cpp
-│ ├── 05RMTASelfAttention.cpp
-│ ├── 06RMTAFeedForwardNetwork.cpp
-│ ├── 07RMTAEncoderLayer.cpp
-│ ├── 08RMTAEncoder.cpp
-│ ├── 09RMTADecoderLayer.cpp
-│ ├── 10RMTADecoder.cpp
-│ ├── FinalLayer.cpp
-│ └── VectorOp.cpp
+│   ├── 01RMTAEmbedding.cpp
+│   ├── 02RMTATokenizer.cpp
+│   ├── 03RMTAPositionalEncoding.cpp
+│   ├── 04RMTALayerNorm.cpp
+│   ├── 05RMTASelfAttention.cpp
+│   ├── 06RMTAFeedForwardNetwork.cpp
+│   ├── 07RMTAEncoderLayer.cpp
+│   ├── 08RMTAEncoder.cpp
+│   ├── 09RMTADecoderLayer.cpp
+│   ├── 10RMTADecoder.cpp
+│   ├── FinalLayer.cpp
+│   └── VectorOp.cpp
 ├── bumblebee.cpp
 ├── bumblebee
 ├── LEIAME.txt
